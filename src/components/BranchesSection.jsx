@@ -9,11 +9,11 @@ export default function BranchesSection() {
         <div className="section-heading split" data-reveal>
           <div>
             <p className="eyebrow">Sucursales</p>
-            <h2>Encuentra tu mesa en San Salvador</h2>
+            <h2>Encuentra tu mesa en Zona Rosa o Costa del Sol</h2>
           </div>
           <p>
-            Tres puntos clave para disfrutar mariscos, pastas y recetas
-            originales en ambientes familiares, ejecutivos y de celebración.
+            Dos sucursales activas para disfrutar mariscos, pastas y recetas
+            originales todos los días, de 10 am a 11 pm.
           </p>
         </div>
         <div className="branch-grid">
@@ -42,15 +42,15 @@ export default function BranchesSection() {
         <div className="map-panel" data-reveal>
           <div>
             <p className="eyebrow">Mapa</p>
-            <h3>San Salvador, El Salvador</h3>
+            <h3>Zona Rosa y Costa del Sol</h3>
             <p>
               Bloque preparado para insertar un iframe de Google Maps o un mapa
-              propio con las ubicaciones de las sucursales.
+              propio con las ubicaciones activas de La H'ola.
             </p>
           </div>
           <a
             className="btn btn-accent"
-            href="https://www.google.com/maps/search/?api=1&query=La+Hola+Betos+San+Salvador"
+            href="https://www.google.com/maps/search/?api=1&query=La+H%27ola+Restaurantes+El+Salvador"
             target="_blank"
             rel="noreferrer"
           >

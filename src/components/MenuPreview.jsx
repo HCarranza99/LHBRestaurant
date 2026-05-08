@@ -11,7 +11,7 @@ export default function MenuPreview() {
             <h2>Un menú amplio, curado para disfrutar sin prisa</h2>
             <p>
               Desde ceviches frescos hasta pastas con mariscos, cada categoria
-              mantiene el espíritu abundante y cercano de La Hola Betos.
+              mantiene el espíritu abundante y cercano de La H'ola.
             </p>
           </div>
           <div className="menu-list" data-reveal>

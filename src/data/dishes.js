@@ -3,7 +3,7 @@ export const dishes = [
     id: "ceviche-hawaiano",
     name: "Ceviche Hawaiano",
     label: "Especialidad",
-    description: "Pescado, piña, coco, plátano y especias La Hola.",
+    description: "Pescado, piña, coco, plátano y especias La H'ola.",
     image:
       "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?auto=format&fit=crop&w=1200&q=80",
   },

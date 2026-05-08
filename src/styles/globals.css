@@ -495,7 +495,7 @@ p {
 
 .hero-copy {
   max-width: 660px;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
   color: rgba(248, 245, 240, 0.82);
   font-size: clamp(1.02rem, 3vw, 1.25rem);
 }
@@ -1354,24 +1354,37 @@ p {
 
   .hero {
     min-height: 100svh;
-    padding-bottom: 70px;
+    padding-block: calc(var(--header-height) + 34px) 92px;
   }
 
   h1 {
-    font-size: clamp(4.7rem, 8vw, 6.9rem);
+    margin-bottom: 18px;
+    font-size: clamp(3.85rem, 6.4vw, 5.45rem);
+  }
+
+  .hero-content {
+    max-width: none;
+  }
+
+  .hero-copy {
+    max-width: 610px;
+    margin-bottom: 22px;
+    font-size: clamp(1rem, 1.4vw, 1.12rem);
   }
 
   .hero-reserve {
+    width: min(304px, calc(100% - 40px));
     position: absolute;
     right: max(40px, calc((100vw - 1120px) / 2));
-    bottom: 82px;
+    bottom: 78px;
     margin: 0;
+    padding: 15px 17px;
   }
 
   .hero-tokens {
     position: absolute;
     left: max(40px, calc((100vw - 1120px) / 2));
-    bottom: 32px;
+    bottom: 28px;
     width: auto;
     margin: 0;
   }
@@ -1402,9 +1415,12 @@ p {
     aspect-ratio: 16 / 7.4;
   }
 
-  .promo-grid,
-  .branch-grid {
+  .promo-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .branch-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .signature-showcase {

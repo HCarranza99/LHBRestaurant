@@ -1,31 +1,22 @@
 export const branches = [
   {
-    id: "zona-real",
-    name: "Zona Real",
-    mood: "Cercana, cómoda y ejecutiva.",
-    address:
-      "Av. Paseo y Calle Lamatepec, Col. Miramonte, atrás del Hotel Real Intercontinental.",
-    phone: "(503) 2260-1810",
-    mapUrl:
-      "https://www.google.com/maps/search/?api=1&query=La+Hola+Betos+Zona+Real+San+Salvador",
-  },
-  {
     id: "zona-rosa",
     name: "Zona Rosa",
-    mood: "Para cenas, reuniones y celebraciones.",
+    mood: "Abierto todos los días de 10 am a 11 pm.",
     address:
-      "Av. Las Magnolias y Blvd. del Hipódromo, Col. San Benito, Zona Rosa.",
+      "Blvd. del Hipódromo y Av. Las Magnolias #230, Col. San Benito, San Salvador.",
     phone: "(503) 2223-6865",
     mapUrl:
-      "https://www.google.com/maps/search/?api=1&query=La+Hola+Betos+Zona+Rosa+San+Salvador",
+      "https://www.google.com/maps/search/?api=1&query=La+H%27ola+Restaurantes+Zona+Rosa+San+Salvador",
   },
   {
-    id: "miramonte",
-    name: "Col. Miramonte",
-    mood: "Tradición familiar de la casa.",
-    address: "Calle Lamatepec, Av. Los Andes, Col. Miramonte.",
-    phone: "(503) 2260-1354 / (503) 2261-0505",
+    id: "costa-del-sol",
+    name: "Costa del Sol",
+    mood: "Abierto todos los días de 10 am a 11 pm.",
+    address:
+      "Blvd. Costa del Sol, km 64.5, San Luis La Herradura, La Paz.",
+    phone: "(503) 7188-9745",
     mapUrl:
-      "https://www.google.com/maps/search/?api=1&query=La+Hola+Betos+Miramonte+San+Salvador",
+      "https://www.google.com/maps/search/?api=1&query=La+H%27ola+Restaurantes+Costa+del+Sol+El+Salvador",
   },
 ];

@@ -2,7 +2,7 @@ const signatures = [
   {
     name: "Ceviche Hawaiano",
     mood: "Dulce tropical",
-    description: "Pescado, piña, coco, plátano y especias La Hola.",
+    description: "Pescado, piña, coco, plátano y especias La H'ola.",
     image:
       "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=1200&q=82",
   },

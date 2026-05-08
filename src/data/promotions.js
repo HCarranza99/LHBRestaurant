@@ -39,6 +39,6 @@ export const promotions = [
     title: "Temporada de mariscos",
     eyebrow: "Frescura del día",
     description:
-      "Promociones rotativas con sabores costeros y recetas originales de La Hola.",
+      "Promociones rotativas con sabores costeros y recetas originales de La H'ola.",
   },
 ];

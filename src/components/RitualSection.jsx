@@ -22,7 +22,7 @@ export default function RitualSection() {
     <section className="section ritual-section" id="ritual">
       <div className="container ritual-grid">
         <div className="section-copy" data-reveal>
-          <p className="eyebrow">El ritual La Hola</p>
+          <p className="eyebrow">El ritual La H'ola</p>
           <h2>El mar servido con memoria, frescura y carácter salvadoreño.</h2>
           <p>
             La experiencia se construye con detalles: producto fresco, recetas

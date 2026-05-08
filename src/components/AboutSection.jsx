@@ -3,7 +3,7 @@ export default function AboutSection() {
     "+30 años de experiencia",
     "Recetas originales",
     "Mariscos y pastas",
-    "Varias sucursales",
+    "2 sucursales activas",
   ];
 
   return (
@@ -19,7 +19,7 @@ export default function AboutSection() {
           <p className="eyebrow">Quiénes somos</p>
           <h2>Tradición marina con carácter salvadoreño</h2>
           <p>
-            La Hola Betos es una cadena de restaurantes con más de 30 años de
+            La H'ola Restaurantes es una cadena con más de 30 años de
             experiencia en preparar exquisitas recetas originales de mariscos y
             pastas.
           </p>

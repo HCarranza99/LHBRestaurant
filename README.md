@@ -1,6 +1,6 @@
-# La Hola Betos Redesign
+# La H'ola Restaurantes Redesign
 
-Rediseño conceptual premium para el restaurante salvadoreño La Hola Betos, construido como landing de una sola página con React + Vite.
+Rediseño conceptual premium para el restaurante salvadoreño La H'ola Restaurantes, construido como landing de una sola página con React + Vite.
 
 Incluye una dirección visual editorial con hero cinematográfico, firma gastronómica, ritual de marca, navegación móvil tipo carta y barra de acciones rápidas para teléfono.
 

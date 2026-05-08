@@ -1,4 +1,5 @@
 import { dishes } from "../data/dishes.js";
+import { menuPdfUrl } from "../data/links.js";
 
 export default function FeaturedDishes() {
   return (
@@ -22,7 +23,9 @@ export default function FeaturedDishes() {
                 <span className="pill">{dish.label}</span>
                 <h3>{dish.name}</h3>
                 <p>{dish.description}</p>
-                <a href="#contacto">Ver menú completo</a>
+                <a href={menuPdfUrl} target="_blank" rel="noreferrer">
+                  Ver menú completo
+                </a>
               </div>
             </article>
           ))}

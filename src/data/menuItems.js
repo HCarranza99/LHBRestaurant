@@ -13,6 +13,6 @@ export const menuItems = [
   },
   {
     category: "Para compartir",
-    items: ["Bandeja La Hola", "Entradas del mar", "Mesa familiar"],
+    items: ["Bandeja La H'ola", "Entradas del mar", "Mesa familiar"],
   },
 ];

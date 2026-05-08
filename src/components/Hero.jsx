@@ -12,7 +12,7 @@ export default function Hero() {
           <span>de 30 años</span>
         </h1>
         <p className="hero-copy">
-          La Hola Betos es una cadena de restaurantes especializada en mariscos y
+          La H'ola Restaurantes es una cadena especializada en mariscos y
           pastas, reconocida por sus recetas originales, frescura y tradición.
         </p>
         <div className="hero-actions">
@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-reserve" data-reveal>
-        <span>Ritual La Hola</span>
+        <span>Ritual La H'ola</span>
         <strong>Frescura del mar, mesa generosa y recetas originales.</strong>
       </div>
       <div className="hero-tokens container" aria-label="Sellos de marca" data-reveal>

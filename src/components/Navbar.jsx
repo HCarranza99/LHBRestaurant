@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
+import { menuPdfUrl } from "../data/links.js";
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Quiénes somos", href: "#quienes-somos" },
   { label: "Firma", href: "#firma" },
-  { label: "Menús", href: "#menus" },
+  { label: "Menús", href: menuPdfUrl, external: true },
   { label: "Sucursales", href: "#sucursales" },
   { label: "Contacto", href: "#contacto" },
 ];
@@ -26,7 +27,7 @@ export default function Navbar() {
         <a className="brand" href="#inicio" onClick={() => setIsOpen(false)}>
           <span className="brand-mark">LH</span>
           <span>
-            <strong>La Hola Betos</strong>
+            <strong>La H'ola Restaurantes</strong>
             <small>Mariscos & Pastas</small>
           </span>
         </a>
@@ -44,12 +45,18 @@ export default function Navbar() {
 
         <div className={`nav-panel ${isOpen ? "is-open" : ""}`}>
           <div className="nav-kicker">
-            <span>San Salvador</span>
+            <span>Zona Rosa y Costa del Sol</span>
             <strong>Una carta costera para compartir.</strong>
           </div>
           <div className="nav-links">
             {navLinks.map((link) => (
-              <a key={link.href} href={link.href} onClick={() => setIsOpen(false)}>
+              <a
+                key={link.href}
+                href={link.href}
+                target={link.external ? "_blank" : undefined}
+                rel={link.external ? "noreferrer" : undefined}
+                onClick={() => setIsOpen(false)}
+              >
                 {link.label}
               </a>
             ))}
