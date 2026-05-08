@@ -17,7 +17,7 @@ export default function Hero() {
         </p>
         <div className="hero-actions">
           <a className="btn btn-accent" href="#firma">
-            Probar la firma
+            Ver Especialidades
           </a>
           <a className="btn btn-ghost" href="#sucursales">
             Encontrar sucursal

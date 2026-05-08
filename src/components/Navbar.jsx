@@ -4,7 +4,6 @@ import { menuPdfUrl } from "../data/links.js";
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Quiénes somos", href: "#quienes-somos" },
-  { label: "Firma", href: "#firma" },
   { label: "Menús", href: menuPdfUrl, external: true },
   { label: "Sucursales", href: "#sucursales" },
   { label: "Contacto", href: "#contacto" },

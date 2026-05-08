@@ -60,8 +60,8 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        <AboutSection />
         <SignatureSection />
+        <AboutSection />
         <FeaturedDishes />
         <RitualSection />
         <MenuPreview />
